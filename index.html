@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripAdvisor</title>
+    <!--Tailwind CSS CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css">
+<body>
+
+   <!--Responsive Navbar-->
+<nav class="navbar">
+    <div class="hamburger-icon">
+       <i class="fa-solid fa-bars fa-lg hidden sm:block" style="color: #333333;"></i>
+    </div>
+
+    <div class="section1">
+        <img src="./Images/TA-1.png" alt="TripAdvisor Logo">
+        <h1>Tripadvisor</h1>
+    </div>
+
+    <div class="section2">
+        <p class="one">Discover</p>
+        <p class="one">Trips</p>
+        <p class="one">Review</p>
+        <p class="two">Forums</p>
+    </div>
+
+    <div class="section3">
+        <img src="./Images/regionlang.png" alt="">
+        <p>|</p>
+        <div>INR</div>
+        <button>Sign In</button>
+    </div>
+
+    <div class="profile-icon">
+       <i class="fa-regular fa-circle-user fa-lg" style="color: #333333;"></i>
+    </div>
+</nav>
+
+   <!--Header section-->
+
+   <section class="header">
+    <h1>Where to?</h1>
+
+    <div class="categories">
+        <p><img src="./Images/home.png">Search All</p>
+        <p><img src="./Images/sleeping.png">Hotels</p>
+        <p><img src="./Images/to-do-list.png">Things to do</p>
+        <p><img src="./Images/restaurant.png">Restaurants</p>
+        <p><img src="./Images/airplane.png">Flights</p>
+        <p><img src="./Images/key.png">Holiday Homes</p>
+    </div>
+
+    <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+        <input type="text" placeholder="Places to go, things to do, hotels...">
+        <button>Search</button>
+    </div>
+   </section>
+
+   <!--Header Image-->
+   <section class="header-image">
+    <img src="./Images/headerimg.jpg">
+   
+   <!--Header image content-->
+   <section class="h-content">
+
+    <div class="h-content__one">
+      <h5>Powered by AI</h5>
+      <h3>BETA</h3>
+    </div>
+
+    <div class="h-content__two">
+      <h1>Plan your kind of<br>trip</h1>
+      <p>Get custom recs for all the <br> things you're into with AI trip <br> builder.</p>
+    </div>
+
+    <div class="h-content__three">
+        <img src="./Images/sparkler.png">
+        <p>Start a trip with AI</p>
+    </div>
+
+   </section>
+  </section>
+
+   <!--Explore section1-->
+
+   <section class="explore-section1">
+    <div class="header1">
+     <h1>Explore the world’s most stunning seasides</h1>
+     <p>2025’s Travellers’ Choice Awards Best of the Best Beaches</p>
+    </div>
+
+    <div class="container">
+        <div class="course-card">
+          <img src="./Images/TA-3.jpg">
+          <p>World</p>
+        </div>
+
+        <div class="course-card">
+          <img src="./Images/TA-4.jpg">
+          <p>Europe</p>
+        </div>
+
+        <div class="course-card">
+          <img src="./Images/TA-5.jpg">
+          <p>Asia</p>
+        </div>
+
+        <div class="course-card">
+          <img src="./Images/TA-6.jpg">
+          <p>South Pacific</p>
+        </div>
+    </div>
+   </section>
+
+    <!--Explore section2-->
+
+    <section class="explore-section2">
+      <div class="header2">
+       <h1>You might like these</h1>
+       <p>More things to do in Coimbatore</p>
+      </div>
+  
+      <div class="container">
+          <div class="course-card1">
+            <img src="./Images/TA-7.jpg">
+            <p>Explore The Gedee Car Museum In Coimbatore</p>
+            <p>4.0 🟢🟢🟢🟢⚪(1)</p>
+          </div>
+  
+          <div class="course-card1">
+            <img src="./Images/TA-8.jpg">
+            <p>Hill Station Tour from Coimbatore to Valparai - 2 days</p>
+            <p>5.0 🟢🟢🟢🟢🟢</p>
+          </div>
+  
+          <div class="course-card1">
+            <img src="./Images/TA-9.jpg">
+            <p>Coimbatore to Ooty- transfers+Hotel+Sightseeing</p>
+            <p>5.0 🟢🟢🟢🟢🟢</p>
+          </div>
+  
+          <div class="course-card1">
+            <img src="./Images/TA-10.jpg">
+            <p>Isha Yoga Centre - Coimbatore</p>
+            <p>4.0 🟢🟢🟢🟢⚪</p>
+          </div>
+      </div>
+     </section>
+
+     <!--Explore section3-->
+     <section class="explore-section3">
+      <div class="header3">
+       <h1>Ways to tour Coimbatore</h1>
+       <p>Book these experiences for a close-up look at Coimbatore.</p>
+      </div>
+  
+      <div class="container">
+          <div class="course-card2">
+            <img src="./Images/TA-11.jpg">
+            <p>Romantic tour in Coimbatore</p>
+            <p>5.0 🟢🟢🟢🟢🟢(1)</p>
+            <h6>from ₹37,910 per group</h6>
+          </div>
+  
+          <div class="course-card2">
+            <img src="./Images/TA-12.jpg">
+            <p>The best of Coimbatore walking tour</p>
+            <p>⚪⚪⚪⚪⚪ (0)</p>
+            <h6>from ₹37,910 per group</h6>
+          </div>
+  
+          <div class="course-card2">
+            <img src="./Images/TA-13.jpg">
+            <p>Half Day Private Tour to Adiyogi Shiva and Dhyanalinga Temple</p>
+            <p>3.0 🟢🟢🟢⚪⚪ (2)</p>
+            <h6>from ₹7,582 per group</h6>
+          </div>
+  
+          <div class="course-card2">
+            <img src="./Images/TA-14.jpg">
+            <p>Ooty & Kumarakom Tour</p>
+            <p>⚪⚪⚪⚪⚪ (0)</p>
+            <h6>from ₹18,873 per group</h6>
+          </div>
+      </div>
+     </section>
+
+     <!--Explore section4-->
+     <section class="explore-section4">
+      <div class="header4">
+       <h1>Dream Your Next Trip</h1>
+       <p>Weekend getaways from Coimbatore</p>
+      </div>
+  
+      <div class="container">
+          <div class="course-card3">
+            <img src="./Images/TA-15.jpg">
+            <p>Ooty (Udhaga-mandalam), India</p>
+          </div>
+  
+          <div class="course-card3">
+            <img src="./Images/TA-16.jpg">
+            <p>Thiruchirapalli, India</p>
+          </div>
+  
+          <div class="course-card3">
+            <img src="./Images/TA-17.jpg">
+            <p>Madurai, India</p>
+          </div>
+  
+          <div class="course-card3">
+            <img src="./Images/TA-18.jpg">
+            <p>Bengaluru, India</p>
+          </div>
+      </div>
+     </section>
+
+     <!--Explore section5-->
+     <section class="explore-section5">
+      <div class="header5">
+       <h1>Top destinations for your next holiday</h1>
+      </div>
+  
+      <div class="container">
+          <div class="course-card4">
+            <img src="./Images/TA-19.jpg">
+            <p>Rome, Italy</p>
+          </div>
+  
+          <div class="course-card4">
+            <img src="./Images/TA-20.jpg">
+            <p>Paris, France</p>
+          </div>
+  
+          <div class="course-card4">
+            <img src="./Images/TA-21.jpg">
+            <p>Los Vegas, NV</p>
+          </div>
+  
+          <div class="course-card4">
+            <img src="./Images/TA-22.jpg">
+            <p>Reykjavik, Iceland</p>
+          </div>
+      </div>
+     </section>
+
+     <!--Explore section6-->
+     <section class="explore-section6">
+      <div class="header6">
+       <h1>Top destinations for your next holiday</h1>
+       <p>Here's where your fellow travellers are headed</p>
+      </div>
+  
+      <div class="container">
+          <div class="course-card5">
+            <img src="./Images/TA-23.jpg">
+            <p>Bangkok, Thailand</p>
+          </div>
+  
+          <div class="course-card5">
+            <img src="./Images/TA-24.jpg">
+            <p>Singapore, Singapore</p>
+          </div>
+  
+          <div class="course-card5">
+            <img src="./Images/TA-25.jpg">
+            <p>Mumbai, India</p>
+          </div>
+  
+          <div class="course-card5">
+            <img src="./Images/TA-26.jpg">
+            <p>Bali, Indonesia</p>
+          </div>
+      </div>
+     </section>
+
+     <!--Explore section7-->
+     <section class="explore-section7">
+      <div class="header7">
+       <h1>Home Rentals Near You</h1>
+       <p>We think you'd enjoy these homes for a quick trip out of town.</p>
+      </div>
+  
+      <div class="container">
+          <div class="course-card6">
+            <img src="./Images/TA-27.jpg">
+            <p>Rentals in Ooty (Udhagamandalam)</p>
+            <h6>16 rentals</h6>
+          </div>
+  
+          <div class="course-card6">
+            <img src="./Images/TA-28.jpg">
+            <p>Rentals in Varkala Town</p>
+            <h6>4 rentals</h6>
+          </div>
+  
+          <div class="course-card6">
+            <img src="./Images/TA-29.jpg">
+            <p>Rentals in Kotagiri</p>
+            <h6>4 rentals</h6>
+          </div>
+  
+          <div class="course-card6">
+            <img src="./Images/TA-30.jpg">
+            <p>Rentals in Thrissur</p>
+            <h6>11 rentals</h6>
+          </div>
+
+          <div class="course-card6">
+            <img src="./Images/TA-31.jpg">
+            <p>Rentals in Vagamon</p>
+            <h6>10 rentals</h6>
+          </div>
+
+          <div class="course-card6">
+            <img src="./Images/TA-32.jpg">
+            <p>Rentals in Coonoor</p>
+            <h6>5 rentals</h6>
+          </div>
+
+          <div class="course-card6">
+            <img src="./Images/TA-33.jpg">
+            <p>Rentals in Madurai</p>
+            <h6>37 rentals</h6>
+          </div>
+
+          <div class="course-card6">
+            <img src="./Images/TA-34.jpg">
+            <p>Rentals in Thanjavur</p>
+            <h6>6 rentals</h6>
+          </div>
+      </div>
+     </section>
+
+     <!--Footer section-->
+     <section class="footer">
+      <div class="footer-one">
+        <div class="footer-one__s1">
+          <h1>About Tripadvisor</h1>
+          <a href="https://tripadvisor.mediaroom.com/in-about-us">About Us</a> <br>
+          <a href="https://tripadvisor.mediaroom.com/in-contact-us">Press</a> <br>
+          <a href="https://tripadvisor.mediaroom.com/in-resources">Resources and Policies</a> <br>
+          <a href="https://careers.tripadvisor.com/">Careers</a> <br>
+          <a href="https://www.tripadvisor.in/Trust">Trust & Safety</a> <br>
+          <a href="https://tripadvisor.mediaroom.com/IN-contact-us">Contact us</a> <br>
+          <a href="https://www.tripadvisor.in/Trust-lgF5hKLTqw3U-Accessibility_statement.html">AccessibilityStatement</a>
+        </div>
+
+        <div class="footer-one__s2">
+          <h1>Explore</h1>
+          <a href="https://www.tripadvisor.in/UserReview">Write a Review</a> <br>
+          <a href="https://www.tripadvisor.in/AddListing">Add a Place</a> <br>
+          <a href="https://www.tripadvisor.in/MemberProfile">Join</a> <br>
+          <a href="https://www.tripadvisor.in/TravelersChoice">Travellers' Choice</a> <br>
+          <a href="https://www.tripadvisorsupport.com/hc/en-in">Help Centre</a> <br>
+          <a href="https://www.tripadvisor.in/Articles">Travel Stories</a>
+        </div>
+
+        <div class="footer-one__s3">
+          <h1>Do Business With Us</h1>
+          <a href="https://www.tripadvisor.in/Owners?m=58397">Owners & DMO/CVB</a> <br>
+          <a href="https://www.tripadvisor.in/business/businessadvantage?args=-m57398">Business Advantage</a> <br>
+          <a href="https://www.tripadvisor.in/business/sponsored-placements?args=-m58399">Sponsored Placements</a> <br>
+          <a href="https://www.tripadvisor.in/developers">Access our Content API</a> <br>
+          <p></p> <br>
+          <h1>Get The App</h1> 
+          <a href="https://www.tripadvisor.in/ShowUrl-a_partnerKey.1-a_url.http%3A__2F____2F__itunes__2E__apple__2E__com__2F__gb__2F__app__2F__tripadvisor__2F__id284876795__3F__mt%3D8__26__pt%3D14124__26__ct%3DBrand__5F__AppPage__5F__0__5F__63742-a_urlKey.fbc1ea310d45d92e4.html">iPhone App</a> <br>
+          <a href="https://www.tripadvisor.in/ShowUrl-a_partnerKey.1-a_url.https%3A__2F____2F__play__2E__google__2E__com__2F__store__2F__apps__2F__details__3F__id%3Dcom__2E__tripadvisor__2E__tripadvisor__26__hl%3Den__2D__GB__26__referrer%3Dutm__5F__download__5F__tracking%253DBrand__5F__AppPage__5F__0__5F__63742-a_urlKey.28e58fc5495d49cbe.html">Android App</a>
+        </div>
+
+        <div class="footer-one__s4">
+          <h1>Tripadvisor Sites</h1>
+          <p>Book tours and attraction tickets on <a href="https://www.viator.com/en-IN/">Visitor</a></p>
+        </div>
+      </div>
+
+      <div class="footer-two">
+          <img src="./Images/tripadvisor.png" style="width: 40px; height: auto;">
+          <p>&copy; 2025 Tripadvisor LLC All rights reserved.</p>      <br>    
+          <a href="https://tripadvisor.mediaroom.com/in-terms-of-use">Terms of Use</a> <br>
+          <a href="https://tripadvisor.mediaroom.com/in-privacy-policy">Privacy and Cookies Statement</a> <br>
+          <p>Cookie Consent</p>
+          <a href="https://www.tripadvisor.in/SiteIndex">Site Map</a> <br>
+          <a href="https://www.tripadvisor.in/pages/service_en.html">How the site works</a> <br> 
+          <a href="https://tripadvisor.mediaroom.com/IN-contact-us">Contact us</a>
+      </div>
+
+      <div class="footer-three">
+        <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select <br> the appropriate version of Tripadvisor for your country or region in the drop-down menu. Show more</p>
+        <div class="icons">
+        <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+        <i class="fa-brands fa-x-twitter" style="color: #000000;"></i>
+        <i class="fa-brands fa-pinterest" style="color: #000000;"></i>
+        <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+        <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+        <i class="fa-brands fa-tiktok" style="color: #000000;"></i>
+      </div>
+      </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,574 @@
+*{
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+.profile-icon{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.section1{
+    display: flex;
+    gap:2px;
+    align-items: center;
+}
+
+.section1 img{
+    width: 40px;
+    height: 40px;
+}
+
+.section1 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section2{
+    display: flex;
+    gap:30px;
+    font-size: 15px;
+    font-weight:500;
+}
+
+.section2 p{
+    border: solid transparent 1px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.one:hover{
+    background-color: #ddd;
+    border: solid #F2F2F2 1px;
+    border-radius: 40px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.two:hover{
+    text-decoration: underline;
+}
+
+
+.section3{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 15px;
+}
+
+.section3 img{
+    width: 18px;
+    height: 18px;
+}
+
+.section3 p{
+    color:gray;
+}
+.section3 button{
+ background-color: black;
+ color: white;
+ border-radius: 30px;
+ padding: 10px;
+ width: 80px;
+}
+
+.section3 button:hover{
+    background: gray;
+}
+
+.header h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 20px;
+}
+
+.categories p{
+    display: flex;
+    gap: 3px;
+    font-weight: 500;
+}
+
+.categories p:hover{
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.categories img{
+    width: 25px;
+    height: 25px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 30px;
+    border: solid #ddd 1px;
+    border-radius: 30px;
+    width: 50%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar input {
+    flex: 1;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #35E0A1;
+    border-radius: 20px;
+    padding: 10px;
+    width: 13%;
+}
+
+.search-bar button:hover{
+    background-color: #83E9BD;
+    transition: 0.3s;
+}
+
+.header-image{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;  
+    position: relative;
+    width: 100%;
+   
+}
+
+.header-image img{
+    border-radius: 15px;
+    height: 450px;;
+    width: 80%;
+}
+
+.h-content{
+    position: absolute;
+    left: 16%;
+    bottom:10%;
+}
+
+.h-content__one{
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.h-content__one h3{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.h-content__two h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.h-content__two p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.h-content__three{
+   background-color: white;
+   padding: 10px;
+   width: 50%;
+   border-radius: 20px;
+   display: flex;
+   margin-left: -5px;
+   margin-top: 25px;
+   padding-left: 30px;
+   padding-right: 15px;
+   align-items: center;
+}
+
+.h-content__three img{
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+}
+
+.explore-section1{
+    margin-top: 70px;  
+}
+
+.explore-section1 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section1 .header1{
+margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card{
+    flex-grow: 0;
+    flex-basis: 21%;
+    position: relative;
+}
+
+.course-card img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card p{
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    bottom: 10px;
+    color:white;
+    padding: 10px;
+}
+
+.explore-section2{
+    margin-top: 70px; 
+}
+
+.explore-section2 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section2 .header2{
+    margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card1{
+    flex-grow: 0;
+    flex-basis: 21%;
+}
+
+.course-card1 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card1 p{
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    padding: 5px;
+    line-height: 1.1;
+}
+
+.explore-section3{
+    margin-top: 70px; 
+}
+
+.explore-section3 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section3 .header3{
+    margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card2{
+    flex-grow: 0;
+    flex-basis: 21%;
+}
+
+.course-card2 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card2 p{
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    padding: 5px;
+    line-height: 1.1;
+}
+
+.course-card2 h6{
+    font-size:13px;
+}
+
+.explore-section4{
+    margin-top: 70px;  
+}
+
+.explore-section4 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section4 .header4{
+margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card3{
+    flex-grow: 0;
+    flex-basis: 21%;
+    position: relative;
+}
+
+.course-card3 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card3 p{
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    bottom: 3px;
+    line-height: 1.1;
+    color:white;
+    padding: 10px;
+}
+
+.explore-section5{
+    margin-top: 70px;  
+}
+
+.explore-section5 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section5 .header5{
+margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card4{
+    flex-grow: 0;
+    flex-basis: 21%;
+    position: relative;
+}
+
+.course-card4 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card4 p{
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    bottom: 3px;
+    line-height: 1.1;
+    color:white;
+    padding: 10px;
+}
+
+.explore-section6{
+    margin-top: 70px;  
+}
+
+.explore-section6 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section6 .header6{
+margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card5{
+    flex-grow: 0;
+    flex-basis: 21%;
+    position: relative;
+}
+
+.course-card5 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card5 p{
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    bottom: 3px;
+    line-height: 1.1;
+    color:white;
+    padding: 10px;
+}
+
+.explore-section7{
+    margin-top: 70px;  
+}
+
+.explore-section7 h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.explore-section7 .header7{
+margin-left: 140px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+
+.course-card6{
+    flex-grow: 0;
+    flex-basis: 21%;
+}
+
+.course-card6 img{
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.course-card6 p{
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    padding: 5px;
+    line-height: 1;
+}
+
+.course-card6 h6{
+    font-size: 13px;
+}
+
+.footer{
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+.footer-one{
+ display: flex;
+ justify-content: center;
+}
+
+.footer-one h1{
+    font-weight: bold;
+}
+
+.footer-one a:hover{
+    text-decoration: underline;
+}
+
+.footer-two{
+    padding: 70px;
+}
+.footer-two img{
+    margin-left: 0;
+}
+
+.footer-two a{
+    text-decoration: underline;
+}
+
+.footer-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.footer-three p{
+    font-size: 12px;
+}
